@@ -1,6 +1,6 @@
 import express from 'express'
 import mongoose, {mongo} from 'mongoose'
-import router from "./router.js";
+import router from "./routers/router.js";
 import fileUpload from 'express-fileupload'
 
 const LOCAL_ADDRESS = 'http://localhost:3005/'
